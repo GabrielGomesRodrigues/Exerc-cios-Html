@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <title>Formulário</title>
+</head>
+
+<body>
+  <form action="processa.php" method="post">
+    <h1>Formulário</h1>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <label for="Nome">Nome:</label>
+      <input type="text" id="Nome">
+      <br>
+      <br>
+      <label for="Endereço">Endereço:</label>
+      <input type="text" id="Endereço" <br>
+      <br>
+      <br>
+      <label>Cidade:</label>
+      <select>
+        <optgroup label="Cidades">
+          <option>Joinville</option>
+          <option>Florianópolis</option>
+        </optgroup>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Dados Profissionais</legend>
+      <label>Natureza do Cargo</label>
+      <br>
+      <input type="radio" name="natureza"id="gerencia">
+      <label for="gerencia">Gerência</label>
+      <input type="radio" name="natureza" id="Financeiro">
+      <label for="Financeiro">Financeiro</label>
+      <input type="radio" name="natureza" id="Recepção">
+      <label for="radio" name="natureza" id="Recepção">Recepção</label>
+      <input type="radio" name="natureza" id="Adm">
+      <label for="adm">Administrativo</label>
+      <input type="radio" name="natureza" id="jur">
+      <label for="jur">Jurídico</label>
+      <br>
+      <br>
+      <label>Área de Interesse</label>
+      <br>
+      <input type="checkbox" id="comp">
+      <label for="comp">Computação</label>
+      <input type="checkbox" id="bio">
+      <label for="bio">Biologia</label>
+      <input type="checkbox" id="meioambi">
+      <label for="meioambi">Meio Ambiente</label>
+      <input type="checkbox" id="eng">
+      <label for="eng">Engenharia</label>
+      <input type="checkbox" id="hist">
+      <label for="hist">História</label>
+      <br>
+      <br>
+      <br>
+      <label for="minicurr">Mini-Currículo:
+      </label>
+      <textarea id="minicurr" rows="7" cols="50"></textarea>        
+  
+ 
+    </fieldset>
+  </form>
+</body>
+
+</html>
